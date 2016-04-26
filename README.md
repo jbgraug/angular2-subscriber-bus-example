@@ -2,6 +2,8 @@
 
 An example of using a subscriber bus for Angular 2 components to notify or communicate with each other.
 
+You can see the [demo here](http://dqsmith.github.io/angular2-subscriber-bus-example/).
+
 *Note:* Angular 2 is an evolving beta (as of this writing).
 
 ## Getting Started
