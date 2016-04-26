@@ -24,8 +24,8 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <header>
+  <div class="container">
+    <div>
       <h1>Angular2-subscriber-bus-example</h1>
       <p>An example of using a subscriber bus for Angular 2 components to notify or communicate with each other.</p>
 
@@ -37,8 +37,18 @@
         <li><a href="https://github.com/dqsmith/angular2-subscriber-bus-example/tarball/master">Download <strong>TAR Ball</strong></a></li>
         <li><a href="https://github.com/dqsmith/angular2-subscriber-bus-example">View On <strong>GitHub</strong></a></li>
       </ul>
-    </header>
-    <section>
+    </div>
+
+    <div>
+      <app></app>
+
+      <!-- Bundles -->
+      <script src="./app/scripts/vendor.bundle.js"></script>
+      <script src="./app/scripts/bundle.js"></script>
+
+    </div>
+
+    <div>
       <h2>
 <a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting Started</h2>
 
@@ -63,19 +73,11 @@
 
       <pre><code>$ grunt 
 </code></pre>
-    </section>
-    <section>
-      <app></app>
-
-      <!-- Bundles -->
-      <script src="./app/scripts/vendor.bundle.js"></script>
-      <script src="./app/scripts/bundle.js"></script>
-
-    </section>
-    <footer>
+    </div>
+    <div>
       <p>This project is maintained by <a href="https://github.com/dqsmith">dqsmith</a></p>
       <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-    </footer>
+    </div>
   </div>
   <script src="javascripts/scale.fix.js"></script>
 
