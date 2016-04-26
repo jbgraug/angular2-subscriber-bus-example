@@ -1,64 +1,84 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Angular2-subscriber-bus-example by dqsmith</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>Angular2-subscriber-bus-example by dqsmith</title>
+
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="stylesheets/github-light.css">
+  <meta name="viewport" content="width=device-width">
+  <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Angular2-subscriber-bus-example</h1>
-        <p>An example of using a subscriber bus for Angular 2 components to notify or communicate with each other.</p>
 
-        <p class="view"><a href="https://github.com/dqsmith/angular2-subscriber-bus-example">View the Project on GitHub <small>dqsmith/angular2-subscriber-bus-example</small></a></p>
+  <!-- Font links -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- App styles -->
+  <link rel="stylesheet" href="./app/styles/app.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Angular2-subscriber-bus-example</h1>
+      <p>An example of using a subscriber bus for Angular 2 components to notify or communicate with each other.</p>
+
+      <p class="view"><a href="https://github.com/dqsmith/angular2-subscriber-bus-example">View the Project on GitHub <small>dqsmith/angular2-subscriber-bus-example</small></a></p>
 
 
-        <ul>
-          <li><a href="https://github.com/dqsmith/angular2-subscriber-bus-example/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/dqsmith/angular2-subscriber-bus-example/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/dqsmith/angular2-subscriber-bus-example">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h2>
+      <ul>
+        <li><a href="https://github.com/dqsmith/angular2-subscriber-bus-example/zipball/master">Download <strong>ZIP File</strong></a></li>
+        <li><a href="https://github.com/dqsmith/angular2-subscriber-bus-example/tarball/master">Download <strong>TAR Ball</strong></a></li>
+        <li><a href="https://github.com/dqsmith/angular2-subscriber-bus-example">View On <strong>GitHub</strong></a></li>
+      </ul>
+    </header>
+    <section>
+      <h2>
 <a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting Started</h2>
 
-<ol>
-<li>Download or clone this repo</li>
-<li>
-<p>Download and install node.js: </p>
+      <ol>
+        <li>Download or clone this repo</li>
+        <li>
+          <p>Download and install node.js: </p>
 
-<p><a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a></p>
-</li>
-<li>
-<p>At the project root install NPM packages</p>
+          <p><a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a></p>
+        </li>
+        <li>
+          <p>At the project root install NPM packages</p>
 
-<p>$ npm install</p>
-</li>
-</ol>
+          <p>$ npm install</p>
+        </li>
+      </ol>
 
-<h2>
+      <h2>
 <a id="running-the-project" class="anchor" href="#running-the-project" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Running the project</h2>
 
-<p>Run the project with a browser from the project root (<a href="http://127.0.0.1:9001">http://127.0.0.1:9001</a>):</p>
+      <p>Run the project with a browser from the project root (<a href="http://127.0.0.1:9001">http://127.0.0.1:9001</a>):</p>
 
-<pre><code>$ grunt 
+      <pre><code>$ grunt 
 </code></pre>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/dqsmith">dqsmith</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+    </section>
+    <section>
+      <app></app>
+
+      <!-- Bundles -->
+      <script src="./app/scripts/vendor.bundle.js"></script>
+      <script src="./app/scripts/bundle.js"></script>
+
+    </section>
+    <footer>
+      <p>This project is maintained by <a href="https://github.com/dqsmith">dqsmith</a></p>
+      <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </footer>
+  </div>
+  <script src="javascripts/scale.fix.js"></script>
+
+</body>
+
 </html>
