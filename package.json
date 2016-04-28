@@ -2,7 +2,7 @@
   "name": "angular2-subscriber-bus-example",
   "version": "1.0.0",
   "description": "Angular starter kit",
-  "author": "Glynlyon",
+  "author": "DLSmith",
   "devDependencies": {
     "concurrently": "^1.0.0",
     "grunt": "^0.4.5",

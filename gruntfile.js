@@ -1,5 +1,5 @@
 /**
- * Merged gruntfile tasks and settings
+ * Merged gruntfile tasks
  */
 
 module.exports = function (grunt) {
